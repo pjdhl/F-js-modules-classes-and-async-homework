@@ -6,7 +6,7 @@ export class Student extends Person {
   }
 
   study = () => {
-    super.move();
+    this.move();
     console.log(`${this.name} is studying in ${this.className}`);
   };
 }
